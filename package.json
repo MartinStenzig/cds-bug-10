@@ -1,0 +1,23 @@
+{
+  "name": "cds-bug-10",
+  "version": "1.0.0",
+  "description": "CDS bug reproduction",
+  "homepage": "https://github.com/MartinStenzig/cds-bug-10#readme",
+  "bugs": {
+    "url": "https://github.com/MartinStenzig/cds-bug-10/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinStenzig/cds-bug-10.git"
+  },
+  "license": "ISC",
+  "author": "martin.stenzig@alphaoak.com",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "@sap/cds": "^9.7.1"
+  }
+}
