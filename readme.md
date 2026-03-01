@@ -5,6 +5,9 @@ There seems to be a bug in the conversion from a CSN containing a namespace attr
 const cdlString = cds.compile(Csn).to.cdl()
 ```
 
+The conversion itself works without throwing an exception. But the expected namespace line is unfortunately omitted. 
+
+
 ## Reproduction
 1. Clone the repo
 2. `npm i`
